@@ -18,6 +18,18 @@ This project uses an ESP32 to read multiple sensors and provide their data via R
        │
        └─────> OLED VCC
 
+GND ──────────────> DHT11 GND
+GND ──────────────> PIR GND
+GND ──────────────> OLED GND
+
+DATA Lines:
+DHT11 DATA ──> GPIO5
+PIR OUT   ──> GPIO2
+LDR middle point ──> GPIO32
+OLED SDA line ──> GPIO21
+OLED SCL line ──> GPIO22
+
+
 
 ## Sensors Used
 - DHT11 → Temperature & Humidity (GPIO5)  
