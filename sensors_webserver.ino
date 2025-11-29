@@ -62,8 +62,8 @@
 
 
 // wifi creds
-const char* ssid = "Bejiness_5G";
-const char* password = "Sambhav@";
+const char* ssid = "wifi_name";
+const char* password = "wifi_password";
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 DHT dht(DHT_PIN, DHT_TYPE);
