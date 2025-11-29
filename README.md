@@ -24,7 +24,7 @@ This project uses an ESP32 to read multiple sensors and provide their data via R
 
 - GND ──────────────> OLED GND
 
-###DATA Lines:
+DATA Lines:
 - DHT11 DATA ──> GPIO5
 - PIR OUT   ──> GPIO2
 - LDR middle point ──> GPIO32
